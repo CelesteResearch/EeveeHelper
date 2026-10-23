@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <AssemblyName>Celeste.Mods.EeveeHelper</AssemblyName>
+        <RootNamespace>Celeste.Mods.EeveeHelper</RootNamespace>
+    </PropertyGroup>
+    <ItemGroup>
+        <ProjectReference
+            Include="$(SharedRoot)/src/Celeste.Game.Runtime/Celeste.Game.Runtime.csproj"
+            Private="false"
+        />
+        <PackageReference Include="MonoMod.RuntimeDetour" Version="25.3.6" />
+    </ItemGroup>
+</Project>
